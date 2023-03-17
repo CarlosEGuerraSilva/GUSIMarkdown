@@ -35,9 +35,9 @@ class GUSIMarkdown {
     REGEX_MARKDOWN_ITALIC = /\_(.*?)\_/;
     //Regex to match (links)[#] markdown
     REGEX_MARKDOWN_LINK = /\((.*?)\)+\[(.*?)\]/;
-    //Regex to match !(table)[{}] markdown
+    //Regex to match !@table@[,] markdown
     REGEX_MARKDOWN_TABLE = /^!(\@table\@)+(\[(.*?)\])+/;
-    //Regex to match !(img)()[] markdown
+    //Regex to match !@img@()[] markdown
     REGEX_MARKDOWN_IMG = /^!(\@img\@)+\((.*?)\)+\[(.*?)\]/;
 
 
